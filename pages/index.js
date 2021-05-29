@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-         Cool Projects. Insightfull ideas. Under Development.
+         Cool Projects. Insightful ideas. Under Development.
           
         </p>
         </main>
