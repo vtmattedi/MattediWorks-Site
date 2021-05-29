@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Page under development 
+          Eu amo Gabi <3
           
         </p>
 
