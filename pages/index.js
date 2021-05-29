@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Eu amo Gabi
+         Cool Projects. Insightfull ideas. Under Development.
           
         </p>
 
