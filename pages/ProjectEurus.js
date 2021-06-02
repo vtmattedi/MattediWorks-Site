@@ -18,6 +18,13 @@ export default function Home() {
         <p className={styles.description}>
          Still Under Development.
         </p>
+        <p>
+          Project Eurus is a preprocessor for binary files such as .c, .html and .js files.
+          you can mark any of this files with a determined pattern and whenever you run Eurus it will substitute
+          the space between the marks for the text file.
+
+
+        </p>
         </main>
         </div>
   )
