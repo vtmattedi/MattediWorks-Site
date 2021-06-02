@@ -12,12 +12,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href= '/ProjectEurus'>MattediWorks&copy;</a>
+          Project Eurus
         </h1>
 
         <p className={styles.description}>
-         Cool Projects. Insightful ideas. Under Development.
-          
+         Still Under Development.
         </p>
         </main>
         </div>
