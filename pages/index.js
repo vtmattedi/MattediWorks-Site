@@ -19,6 +19,10 @@ export default function Home() {
          Cool Projects. Insightful ideas. Under Development.
           
         </p>
+        <p className={styles.p2}>
+        Try out this <a href="/calculator.html">calculator</a> (placeholder example)
+          
+        </p>
         </main>
         </div>
   )

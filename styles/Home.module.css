@@ -122,3 +122,15 @@
     flex-direction: column;
   }
 }
+
+.p2
+{
+  font-size: 12px;
+}
+.p2 a
+{
+  color: chocolate;
+}
+.p2 :hover{
+  text-decoration: underline;
+}

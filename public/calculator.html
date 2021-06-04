@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="calculator.css">
+    <script data-ad-client="ca-pub-4059701523804358" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=PT+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div style="justify-content: center; display: flex;">
+        <div class="calcForm">
+            <div style="margin: 30px;" >
+                <label class="labelA">This is an example Calculator</label>
+            </div>
+            <div style=" display: flex; align-items: center; flex-direction: column;">
+                <div  class="txtdiv" >
+                    <label>Type a Number: </label>
+               
+                <input id="t1" class="text t1" onkeyup="calc()" placeholder=0></input>
+             </div>
+                <!-- <button onclick="calc()" class="button">Calculator</button> -->
+                <div  class="txtdiv" >
+                    <label >This is its square:</label>
+                    <input id="t2" class="text t2"></input>
+                </div>
+            </div>
+                <div style="margin: 30px;">
+                    <label class="labelA">This is a Calculator with a Button</label>
+                </div>
+                <div style=" display: flex; align-items: center; flex-direction: column;">
+                    <div  class="txtdiv">
+                        <label>Type a Number: </label>
+                   
+                    <input id="t3" class="text t1" placeholder=0></input>
+                 </div>
+                 <button onclick="calcs()" class="button">Calculate</button>
+
+                    <div class="txtdiv" >
+                        <label >This is its squareroot:</label>
+                        <input id="t4" class="text t2" ></input>
+                    </div>
+
+                </div>   
+   
+        </div>   
+    </div>
+
+</body>
+<script>
+    function calc() {
+        var s = document.getElementById("t1").value;
+        if(!isNaN(s))
+        document.getElementById("t2").value =s*s ;
+        else
+        document.getElementById("t2").value = "u r too clever";
+
+
+    }
+    function calcs() {
+        var s = document.getElementById("t3").value;
+        if(s>=0)
+        document.getElementById("t4").value = roundToTwo(Math.sqrt(s)) ;
+        else
+        document.getElementById("t4").value = "u r too clever";
+
+    }
+    function roundToTwo(num) {    
+    return +(Math.round(num + "e+4")  + "e-4");
+}
+</Script>
+
+</html>
