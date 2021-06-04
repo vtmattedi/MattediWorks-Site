@@ -46,7 +46,11 @@ margin-top: 5%;
 body
 {
     background-color: darkseagreen;
+    zoom: 150%;
+    
 }
+
+
 
 input{
     border-radius: 10px;
