@@ -1,18 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=PT+Sans&display=swap');
+
 .calculatorBigBox {
     color:aqua;
 }
 
 .calcForm
 {
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 40vh;
     background-color: chocolate;
     border:rgb(161, 132, 118) 3px solid;
     border-radius: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-margin-top: 5%;
+    margin-top: 5%;
 }
 
 .text
@@ -23,6 +25,9 @@ margin-top: 5%;
     padding: 10px;
     font-family: 'Odibee Sans', cursive;
     font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5px;
 }
 .button 
 {
@@ -43,24 +48,12 @@ margin-top: 5%;
    
 }
 
-body
+.divBigDiv
 {
-    background-color: darkseagreen;
     zoom: 150%;
-    
-}
-
-    
-
-input{
-    border-radius: 10px;
-    text-align: center;
-    margin-left: 5px;
-    
-}
-html
-{
     font-family: 'PT Sans', sans-serif;
+    justify-content: center; display: flex;
+    
 }
 
 .button:hover
@@ -71,7 +64,7 @@ html
     border-color: honeydew;
    
 }
-.txtdiv
+.textdiv
 {
 
     display: flex;
@@ -81,8 +74,27 @@ html
 }
 .labelA
 {
-    font-size: 24px;
+    font-size: 22px;
     color: rgb(255, 251, 213);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
  
 }
 
+
+.button2
+{
+    color: red;
+    width: 400px;
+    height: 100px;
+}
+
+.buttonwrapperdiv
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

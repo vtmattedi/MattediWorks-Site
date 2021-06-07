@@ -1,11 +1,12 @@
 {
-  "name": "nextjs",
+  "name": "MattediWorks-site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "tsc": "tsc"
   },
   "dependencies": {
     "config": "^3.3.6",
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/vtmattedi/MattediWorks-Site/issues"
   },
-  "homepage": "https://github.com/vtmattedi/MattediWorks-Site#readme"
+  "homepage": "https://github.com/vtmattedi/MattediWorks-Site#readme",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
 }

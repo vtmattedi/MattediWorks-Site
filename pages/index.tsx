@@ -1,5 +1,8 @@
 import Head from 'next/head'
+import Link from 'next/link';
+import React from 'react';
 import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
@@ -19,9 +22,12 @@ export default function Home() {
          Cool Projects. Insightful ideas. Under Development.
           
         </p>
+
         <p className={styles.p2}>
-        Try out this <a href="/calculator.html">calculator</a> (placeholder example)
-          
+        Try out this <a href="/calculator.html">calculator</a> (static html)(placeholder example)         
+        </p>
+        <p className={styles.p2}>
+        or this same <a href="/Calculator">calculator</a>(rendered by next.js)(placeholder example)         
         </p>
         </main>
         </div>
